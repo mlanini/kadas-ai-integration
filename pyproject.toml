@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kadas-ai-integration"
+version = "0.1.0"
+description = "Reference MCP and AI integration framework for KADAS Albireo"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-2.0"
+authors = [
+  { name = "KADAS AI Integrations Contributors" }
+]
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "mcp/kadas-mcp-core/src",
+  "mcp/servers/map-server/src",
+  "mcp/servers/geodata-server/src",
+  "mcp/servers/analysis-server/src",
+  "mcp/servers/sketching-server/src",
+  "mcp/servers/geolocation-server/src",
+  "mcp/servers/geoai-server/src"
+]
+addopts = "-ra"

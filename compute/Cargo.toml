@@ -1,0 +1,13 @@
+[package]
+name = "kadas-ai-compute"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0"
+description = "Compute-intensive geospatial modules for KADAS AI integrations"
+
+[lib]
+name = "kadas_ai_compute"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module", "abi3-py312"] }

@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install tooling
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff pytest
+      - name: Lint
+        run: ruff check .
+      - name: Compile MCP Python modules
+        run: |
+          python -m compileall mcp/kadas-mcp-core/src \
+            mcp/servers/map-server/src \
+            mcp/servers/geodata-server/src \
+            mcp/servers/analysis-server/src \
+            mcp/servers/sketching-server/src \
+            mcp/servers/geolocation-server/src \
+            mcp/servers/geoai-server/src
+      - name: Tests
+        run: pytest
