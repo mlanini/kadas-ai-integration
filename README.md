@@ -62,7 +62,7 @@ See [examples/claude_desktop_config.json](examples/claude_desktop_config.json) f
 ## Guides
 
 - [Quick configuration guide for beginners](docs/quick-configuration-guide.md)
-- [Quick starter guide for your first KADAS AI plugins](docs/mini-guida-plugin-kadas-ai.md)
+- [Quick starter guide for your first KADAS AI plugins](docs/quickstarter_plugin-kadas-ai.md)
 
 ## Architecture
 
