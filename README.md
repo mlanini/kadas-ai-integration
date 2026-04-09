@@ -1,5 +1,7 @@
 # KADAS AI Integrations
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/mlanini/kadas-ai-integration)
+
 A collection of reference integrations and experiments connecting the KADAS Albireo application framework with AI systems, including MCP tools, LLM workflows, retrieval pipelines, and geospatial agent capabilities.
 
 Built around modular MCP servers, this repository is intended as a reference framework for KADAS plugin developers who want to build geospatially aware AI applications with explicit map context, catalog access, terrain analysis, routing, and AI-assisted raster workflows.
