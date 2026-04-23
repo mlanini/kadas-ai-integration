@@ -44,7 +44,7 @@ Built around modular MCP servers, this repository is intended as a reference fra
 
 This repository is configured to run MCP servers with:
 
-- `C:\Program Files\KadasAlbireo\bin\python.exe`
+- `<path_to_KadasAlbireo>\bin\python.exe` (should be adapted depending on the operating system being used)
 
 ### 2. VS Code MCP configuration
 

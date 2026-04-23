@@ -11,7 +11,7 @@ Thanks for your interest in contributing to KADAS AI Integrations.
 
 ## Local Development
 
-- Preferred runtime for local validation: `C:\Program Files\KadasAlbireo\bin\python.exe`
+- Preferred runtime for local validation: `<path_to_KadasAlbireo>\bin\python.exe`
 - MCP client configuration: [.vscode/mcp.json](.vscode/mcp.json)
 - Agent guidance: [skills/kadas-geospatial/SKILL.md](skills/kadas-geospatial/SKILL.md)
 

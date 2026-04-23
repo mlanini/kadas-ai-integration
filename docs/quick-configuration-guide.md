@@ -7,14 +7,14 @@ This guide helps you run the KADAS AI Integrations project with the least amount
 Before starting, make sure you have:
 
 - KADAS Albireo installed
-- Python available at `C:\Program Files\KadasAlbireo\bin\python.exe`
+- Python available at `<path_to_KadasAlbireo>\bin\python.exe`
 - This repository opened in VS Code
 
 ## 1. Verify the KADAS Python path
 
 The project is configured to use:
 
-- `C:\Program Files\KadasAlbireo\bin\python.exe`
+- `<path_to_KadasAlbireo>\bin\python.exe`
 
 You can verify it in:
 

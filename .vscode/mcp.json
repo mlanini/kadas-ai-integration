@@ -1,32 +1,32 @@
 {
   "servers": {
     "kadas-map": {
-      "command": "C:\\Program Files\\KadasAlbireo\\bin\\python.exe",
+      "command": "<path_to_Python3>",
       "args": ["-m", "map_server.server"],
       "cwd": "${workspaceFolder}/mcp/servers/map-server"
     },
     "kadas-geodata": {
-      "command": "C:\\Program Files\\KadasAlbireo\\bin\\python.exe",
+      "command": "<path_to_Python3>",
       "args": ["-m", "geodata_server.server"],
       "cwd": "${workspaceFolder}/mcp/servers/geodata-server"
     },
     "kadas-analysis": {
-      "command": "C:\\Program Files\\KadasAlbireo\\bin\\python.exe",
+      "command": "<path_to_Python3>",
       "args": ["-m", "analysis_server.server"],
       "cwd": "${workspaceFolder}/mcp/servers/analysis-server"
     },
     "kadas-sketching": {
-      "command": "C:\\Program Files\\KadasAlbireo\\bin\\python.exe",
+      "command": "<path_to_Python3>",
       "args": ["-m", "sketching_server.server"],
       "cwd": "${workspaceFolder}/mcp/servers/sketching-server"
     },
     "kadas-geolocation": {
-      "command": "C:\\Program Files\\KadasAlbireo\\bin\\python.exe",
+      "command": "<path_to_Python3>",
       "args": ["-m", "geolocation_server.server"],
       "cwd": "${workspaceFolder}/mcp/servers/geolocation-server"
     },
     "kadas-geoai": {
-      "command": "C:\\Program Files\\KadasAlbireo\\bin\\python.exe",
+      "command": "<path_to_Python3>",
       "args": ["-m", "geoai_server.server"],
       "cwd": "${workspaceFolder}/mcp/servers/geoai-server"
     }
